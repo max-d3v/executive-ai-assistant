@@ -42,7 +42,7 @@ Table of contents
 4. Download the client secret. After that, run these commands:
 5. `mkdir eaia/.secrets` - This will create a folder for secrets
 6. `mv ${PATH-TO-CLIENT-SECRET.JSON} eaia/.secrets/secrets.json` - This will move the client secret you just created to that secrets folder
-7. change url in run_single.py to 8090
+7. change url in run_single.py to 8090 if [WinError 10013]
 8. `python scripts/setup_gmail.py` - This will generate another file at `eaia/.secrets/token.json` for accessing Google services.
 9. Export LangSmith API key (`export LANGSMITH_API_KEY`)
 
